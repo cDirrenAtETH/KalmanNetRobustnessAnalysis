@@ -1,0 +1,800 @@
+[
+  {
+    "config_name": "default_gen_r1",
+    "generate": true,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+  {
+    "config_name": "default_gen_r1e-1",
+    "generate": true,
+    "from_config": "default_r1",
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+  {
+    "config_name": "default_gen_r1e-2",
+    "generate": true,
+    "from_config": "default_r1",
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-2,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+    {
+    "config_name": "default_gen_r1e-3",
+    "generate": true,
+    "from_config": "default_r1",
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-3,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+  {
+    "config_name": "default_gen_r1",
+    "generate": true,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+  {
+    "config_name": "default_gen_r1",
+    "generate": true,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+  {
+    "config_name": "default_r1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+   {
+    "config_name": "default_r1e-1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  }, {
+    "config_name": "default_r1e-2",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-2,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+    {
+    "config_name": "default_r1e-3",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-3,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+  {
+    "config_name": "default_r1e-4",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-4,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    }
+  },
+  {
+    "config_name": "default_r1_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  },
+   {
+    "config_name": "default_r1e-1_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  }, {
+    "config_name": "default_r1e-2_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-2,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  },
+    {
+    "config_name": "default_r1e-3_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-3,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 500,
+      "trajectory_length": 100
+    },
+    "val_set": {
+      "batch_size": 100,
+      "trajectory_length": 100
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  },
+  {
+    "config_name": "len200_r1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 250,
+      "trajectory_length": 200
+    },
+    "val_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    },
+    "test_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    }
+  },
+   {
+    "config_name": "len200_r1e-1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 250,
+      "trajectory_length": 200
+    },
+    "val_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    },
+    "test_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    }
+  },
+   {
+    "config_name": "len200_r1e-2",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-2,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 250,
+      "trajectory_length": 200
+    },
+    "val_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    },
+    "test_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    }
+  },
+   {
+    "config_name": "len200_r1e-3",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-3,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 250,
+      "trajectory_length": 200
+    },
+    "val_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    },
+    "test_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    }
+  },
+   {
+    "config_name": "len200_r1e-4",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-4,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 250,
+      "trajectory_length": 200
+    },
+    "val_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    },
+    "test_set": {
+      "batch_size": 50,
+      "trajectory_length": 200
+    }
+  },
+  {
+    "config_name": "len250_r1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    }
+  },
+   {
+    "config_name": "len250_r1e-1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    }
+  },
+   {
+    "config_name": "len250_r1e-2",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-2,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    }
+  },
+   {
+    "config_name": "len250_r1e-3",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-3,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    }
+  },
+  {
+    "config_name": "len250_r1_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  },
+   {
+    "config_name": "len250_r1e-1_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  },
+   {
+    "config_name": "len250_r1e-2_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-2,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  },
+   {
+    "config_name": "len250_r1e-3_longtest",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-3,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 200,
+      "trajectory_length": 250
+    },
+    "val_set": {
+      "batch_size": 40,
+      "trajectory_length": 250
+    },
+    "test_set": {
+      "batch_size": 1,
+      "trajectory_length": 10000
+    }
+  },
+  {
+    "config_name": "len500_r1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 100,
+      "trajectory_length": 500
+    },
+    "val_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    },
+    "test_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    }
+  },
+   {
+    "config_name": "len500_r1e-1",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-1,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 100,
+      "trajectory_length": 500
+    },
+    "val_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    },
+    "test_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    }
+  },
+   {
+    "config_name": "len500_r1e-2",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-2,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+     "train_set": {
+      "batch_size": 100,
+      "trajectory_length": 500
+    },
+    "val_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    },
+    "test_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    }
+  },
+   {
+    "config_name": "len500_r1e-3",
+    "generate": false,
+    "from_config": null,
+    "save_info": {
+      "path": "data/single_obs",
+      "name": null
+    },
+    "process_var": 1e-4,
+    "measurement_var": 1e-3,
+    "sampling_time": 1e-1,
+    "max_taylor_coefficient": 5,
+    "train_set": {
+      "batch_size": 100,
+      "trajectory_length": 500
+    },
+    "val_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    },
+    "test_set": {
+      "batch_size": 20,
+      "trajectory_length": 500
+    }
+  }
+]

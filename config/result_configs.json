@@ -1,0 +1,18 @@
+[
+  {
+    "config_name": "default",
+    "save": false,
+    "save_info": {
+      "path": "data/results",
+      "name": "results"
+    }
+  },
+  {
+    "config_name": "save",
+    "save": true,
+    "save_info": {
+      "path": "data/results",
+      "name": "results"
+    }
+  }
+]

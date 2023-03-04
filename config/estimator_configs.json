@@ -1,0 +1,276 @@
+[
+  {
+    "config_name": "knet_default",
+    "loss": "MSE",
+    "type": "KalmanNetNN",
+    "train": true,
+    "test": true,
+    "save": true,
+    "save_pipeline": true,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+   {
+    "config_name": "knet_velMSE",
+    "loss": "velMSE",
+    "type": "KalmanNetNN",
+    "train": true,
+    "test": true,
+    "save": true,
+    "save_pipeline": true,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_posMSE",
+    "loss": "posMSE",
+    "type": "KalmanNetNN",
+    "train": true,
+    "test": true,
+    "save": true,
+    "save_pipeline": true,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+    {
+    "config_name": "knet_freqMSE",
+    "loss": "freqMSE",
+    "type": "KalmanNetNN",
+    "train": true,
+    "test": true,
+    "save": true,
+    "save_pipeline": true,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_notrain",
+    "loss": "MSE",
+    "type": "KalmanNetNN",
+    "train": false,
+    "test": true,
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_notrain_velMSE",
+    "loss": "velMSE",
+    "type": "KalmanNetNN",
+    "train": false,
+    "test": true,
+
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_notrain_posMSE",
+    "loss": "posMSE",
+    "type": "KalmanNetNN",
+    "train": false,
+    "test": true,
+
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_ri",
+    "loss": "MSE",
+    "type": "KalmanNetNN",
+    "train": true,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": true,
+    "save_pipeline": true,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+   {
+    "config_name": "knet_notrain_ri",
+    "loss": "MSE",
+    "type": "KalmanNetNN",
+    "train": false,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_velMSE_ri",
+    "loss": "velMSE",
+    "type": "KalmanNetNN",
+    "train": true,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": true,
+    "save_pipeline": true,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_posMSE_ri",
+    "loss": "posMSE",
+    "type": "KalmanNetNN",
+    "train": true,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": true,
+    "save_pipeline": true,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+    {
+    "config_name": "knet_notrain_posMSE_ri",
+    "loss": "posMSE",
+    "type": "KalmanNetNN",
+    "train": false,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "knet_notrain_velMSE_ri",
+    "loss": "velMSE",
+    "type": "KalmanNetNN",
+    "train": false,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/knet/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "ekf_default",
+    "loss": "MSE",
+    "type": "ExtendedKalmanFilter",
+    "train": true,
+    "test": true,
+
+    "save": true,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/kf/single_obs",
+      "name": null
+    }
+  },
+    {
+    "config_name": "ekf_notrain",
+    "loss": "MSE",
+    "type": "ExtendedKalmanFilter",
+    "train": false,
+    "test": true,
+
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/kf/single_obs",
+      "name": null
+    }
+  },
+    {
+    "config_name": "ekf_notrain_velMSE",
+    "loss": "velMSE",
+    "type": "ExtendedKalmanFilter",
+    "train": false,
+    "test": true,
+
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/kf/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "ekf_notrain_posMSE",
+    "loss": "posMSE",
+    "type": "ExtendedKalmanFilter",
+    "train": false,
+    "test": true,
+
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/kf/single_obs",
+      "name": null
+    }
+  },
+    {
+    "config_name": "ekf_ri",
+    "loss": "MSE",
+    "type": "ExtendedKalmanFilter",
+    "train": true,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": true,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/kf/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "ekf_notrain_ri",
+    "loss": "MSE",
+    "type": "ExtendedKalmanFilter",
+    "train": false,
+    "test": true,
+    "random_variance": [4, 4, 1, 1],
+    "save": false,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/kf/single_obs",
+      "name": null
+    }
+  },
+  {
+    "config_name": "id_default",
+    "loss": "posMSE",
+    "type": "IdentityEstimator",
+    "train": false,
+    "test": true,
+    "save": true,
+    "save_pipeline": false,
+    "save_info": {
+      "path": "estimators/kf/single_obs",
+      "name": null
+    }
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "main_config": "default_r1",
+    "data_config": "default_r1",
+    "ekf_config": "default_saveresult",
+    "knet_config": "default",
+    "training_config": "default",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1_velMSE",
+    "data_config": "default_r1",
+    "ekf_config": "default_velMSE_saveresult",
+    "knet_config": "default",
+    "training_config": "default_velMSE",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1_velMSE_wd1e-6",
+    "data_config": "default_r1",
+    "ekf_config": "default_velMSE",
+    "knet_config": "default",
+    "training_config": "default_velMSE_wd1e-6",
+    "result_config": "default"
+  },
+   {
+    "main_config": "default_r1e-1_velMSE",
+    "data_config": "default_r1e-1",
+    "ekf_config": "default_velMSE_saveresult",
+    "knet_config": "default",
+    "training_config": "default_velMSE",
+    "result_config": "default"
+  },
+     {
+    "main_config": "default_r1e-1_velMSE_wd1e-6",
+    "data_config": "default_r1e-1",
+    "ekf_config": "default_velMSE",
+    "knet_config": "default",
+    "training_config": "default_velMSE_wd1e-6",
+    "result_config": "default"
+  },
+     {
+    "main_config": "default_r1e-2_velMSE",
+    "data_config": "default_r1e-2",
+    "ekf_config": "default_velMSE_saveresult",
+    "knet_config": "default",
+    "training_config": "default_velMSE",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-2_velMSE_wd1e-6",
+    "data_config": "default_r1e-2",
+    "ekf_config": "default_velMSE",
+    "knet_config": "default",
+    "training_config": "default_velMSE_wd1e-6",
+    "result_config": "default"
+  },
+       {
+    "main_config": "default_r1e-3_velMSE",
+    "data_config": "default_r1e-3",
+    "ekf_config": "default_velMSE_saveresult",
+    "knet_config": "default",
+    "training_config": "default_velMSE",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-3_velMSE_wd1e-6",
+    "data_config": "default_r1e-3",
+    "ekf_config": "default_velMSE",
+    "knet_config": "default",
+    "training_config": "default_velMSE_wd1e-6",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-3_wd1e-6",
+    "data_config": "default_r1e-3",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_wd1e-6",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-3_wd1e-4",
+    "data_config": "default_r1e-3",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_wd1e-4",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-3_lr5e-4",
+    "data_config": "default_r1e-3",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_lr5e-4",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-3_lr5e-4_wd1e-6",
+    "data_config": "default_r1e-3",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_lr5e-4_wd1e-6",
+    "result_config": "default"
+  },
+       {
+    "main_config": "default_r1e-4_velMSE",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default_velMSE_saveresult",
+    "knet_config": "default",
+    "training_config": "default_velMSE",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_velMSE_wd1e-6",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default_velMSE",
+    "knet_config": "default",
+    "training_config": "default_velMSE_wd1e-6",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_wd1e-6",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_wd1e-6",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_velMSE_wd1e-3",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_velMSE_wd1e-3",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_velMSE_lr5e-4_wd1e-4",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_velMSE_lr5e-4_wd1e-4",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_wd1e-4",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_wd1e-4",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_wd1e-3",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_wd1e-3",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_lr5e-4",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_lr5e-4",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_lr5e-4_wd1e-6",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_lr5e-4_wd1e-6",
+    "result_config": "default"
+  },
+  {
+    "main_config": "default_r1e-4_lr5e-4_wd1e-4",
+    "data_config": "default_r1e-4",
+    "ekf_config": "default",
+    "knet_config": "default",
+    "training_config": "default_lr5e-4_wd1e-4",
+    "result_config": "default"
+  }
+]

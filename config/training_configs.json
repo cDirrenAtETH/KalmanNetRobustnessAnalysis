@@ -1,0 +1,358 @@
+[
+  {
+    "config_name": "default",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-5
+  },
+  {
+    "config_name": "default_lr5e-4",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-5
+  },
+  {
+    "config_name": "default_wd1e-7",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-7
+  },
+  {
+    "config_name": "default_wd1e-6",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-6
+  },
+  {
+    "config_name": "default_wd1e-4",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-4
+  },
+  {
+    "config_name": "default_wd1e-3",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-3
+  },
+  {
+    "config_name": "default_lr5e-4_wd1e-6",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-6
+  },
+  {
+    "config_name": "default_lr5e-4_wd1e-4",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-4
+  },
+  {
+    "config_name": "default_velMSE",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-5
+  },
+   {
+    "config_name": "default_velMSE_lr5e-4",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-5
+  },
+  {
+    "config_name": "default_velMSE_wd1e-6",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-6
+  },
+  {
+    "config_name": "default_velMSE_wd1e-4",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-4
+  },
+  {
+    "config_name": "default_velMSE_wd1e-3",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-3
+  },
+  {
+    "config_name": "default_velMSE_ep150_wd1e-3",
+    "n_epochs": 150,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-3
+  },
+  {
+    "config_name": "default_velMSE_lr5e-4_wd1e-4",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-4
+  },
+   {
+    "config_name": "default_velMSE_lr5e-4_wd1e-6",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-6
+  },
+   {
+    "config_name": "default_posMSE",
+    "n_epochs": 100,
+    "loss": "posMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-5
+  },
+   {
+    "config_name": "default_freqMSE",
+    "n_epochs": 100,
+    "loss": "freqMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-5
+  },
+    {
+    "config_name": "default_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-5,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_lr5e-4_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-5,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_wd1e-7_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-7,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_wd1e-6_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-6,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_wd1e-4_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-4,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_wd1e-3_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-3,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_lr5e-4_wd1e-6_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-6,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_lr5e-4_wd1e-4_ri",
+    "n_epochs": 100,
+    "loss": "MSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-4,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_velMSE_ri",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-5,
+    "random_variance": [4, 4, 1, 1]
+  },
+   {
+    "config_name": "default_velMSE_lr5e-4_ri",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-5,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_velMSE_wd1e-6_ri",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-6,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_velMSE_wd1e-4_ri",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-4,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_velMSE_wd1e-3_ri",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-3,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_velMSE_ep150_wd1e-3_ri",
+    "n_epochs": 150,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-3,
+    "random_variance": [4, 4, 1, 1]
+  },
+  {
+    "config_name": "default_velMSE_lr5e-4_wd1e-4_ri",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-4,
+    "random_variance": [4, 4, 1, 1]
+  },
+   {
+    "config_name": "default_velMSE_lr5e-4_wd1e-6_ri",
+    "n_epochs": 100,
+    "loss": "velMSE",
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 10000,
+    "learning_rate": 5e-4,
+    "weight_decay": 1e-6,
+    "random_variance": [4, 4, 1, 1]
+  }
+]
