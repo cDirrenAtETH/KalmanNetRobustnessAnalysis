@@ -312,8 +312,7 @@ def get_default_estimator_name(est_config: EstimatorConfig, data_config: DataCon
         return name + data_config.save_info.name
 
     elif est_config.type == "KalmanNetNN":
-        name = f'{est_config.type}_' \
-               f'loss{est_config.train_config.loss}_' \
+        name = f'{est_config.train_config.loss}_' \
                f'ep{est_config.train_config.n_epochs}_' \
                f'train{est_config.train_config.train_size}_' \
                f'val{est_config.train_config.val_size}_' \
